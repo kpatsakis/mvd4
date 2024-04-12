@@ -1,0 +1,1 @@
+void CWE114_Process_Control__w32_char_relativePath_42_bad() char * data ; char dataBuffer [ 100 ] = "" ; data = dataBuffer; data = badSource ( data ); static char * badSource(char * data) strcpy ( data , "winsrv.dll" ); return data ; HMODULE hModule ; hModule = LoadLibraryA ( data ); if ( hModule != NULL )  FreeLibrary ( hModule ); 

@@ -1,0 +1,1 @@
+void CWE122_Heap_Based_Buffer_Overflow__CWE131_memcpy_34_bad() int * data ; data = ( int * ) malloc ( 10 ); myUnion . unionFirst = data; int * data = myUnion . unionSecond ; memcpy ( data , source , 10 * sizeof ( int ) ); printIntLine ( data [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); free ( data ); 

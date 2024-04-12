@@ -1,0 +1,1 @@
+void bad() char * data ; data = new char [ 100 ]; if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; memset ( data , 'A' , 100 - 1 ); data [ 100 - 1 ] = '\0'; dest [ i ] = data [ i ]; dest [ 50 - 1 ] = '\0'; 

@@ -1,0 +1,1 @@
+void CWE426_Untrusted_Search_Path__wchar_t_popen_17_bad() int i ; wchar_t * data ; wchar_t dataBuffer [ 100 ] = L "" data = dataBuffer; for(i = 0; i < 1; i++) wcscpy ( data , BAD_OS_COMMAND ); pipe = POPEN ( data , L "wb" ) if ( pipe != NULL )  PCLOSE ( pipe ); 

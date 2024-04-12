@@ -1,0 +1,1 @@
+void CWE617_Reachable_Assertion__fixed_66_bad() int data ; int dataArray [ 5 ] ; data = - 1; data = ASSERT_VALUE - 1; dataArray [ 2 ] = data; CWE617_Reachable_Assertion__fixed_66b_badSink ( dataArray ); void CWE617_Reachable_Assertion__fixed_66b_badSink(int dataArray[]) int data = dataArray [ 2 ] ; assert ( data > ASSERT_VALUE ); 

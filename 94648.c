@@ -1,0 +1,1 @@
+static void goodG2B1() double * data ; data = NULL; data = goodG2B1Source ( data ); static double * goodG2B1Source(double * data) if ( goodG2B1Static )  data = ( double * ) malloc ( sizeof ( * data ) ); * data = 1.7E300; return data ; free ( data ); 

@@ -1,0 +1,1 @@
+static void good1() if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; wchar_t * data ; wchar_t * * pointer = ( wchar_t * * ) malloc ( sizeof ( wchar_t * ) ) ; data = L "string" * pointer = data; wchar_t * data ; wchar_t * * pointer = ( wchar_t * * ) malloc ( sizeof ( wchar_t * ) ) ; data = L "string" * pointer = data; free ( pointer ); 

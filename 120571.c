@@ -1,0 +1,1 @@
+static void goodG2B() vector < wchar_t * > dataVector ; goodG2BSink ( dataVector ); void goodG2BSink(vector<wchar_t *> dataVector) wchar_t * data = dataVector [ 2 ] ; size_t i ; wchar_t source [ 100 ] ; wmemset ( source , L 'C' , 100 - 1 source [ 100 - 1 ] = L '\0' for (i = 0; i < 100; i++) data [ i ] = source [ i ]; data [ 100 - 1 ] = L '\0' free ( data ); 

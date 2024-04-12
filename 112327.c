@@ -1,0 +1,1 @@
+static int manager_skinny_show_devices(struct mansession *s, const struct message *m) const char * id = astman_get_header ( m , "ActionID" ) ; char idtext [ 256 ] = "" ; if ( ! ast_strlen_zero ( id ) )  snprintf ( idtext , sizeof ( idtext ) , "ActionID: %s\r\n" , id ); astman_append ( s "Event: "EventList: "ListItems:  "\r\n" , total , idtext ) 

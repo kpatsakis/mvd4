@@ -1,0 +1,1 @@
+void CWE90_LDAP_Injection__w32_char_file_32_bad() char * data ; char * * dataPtr1 = & data ; char dataBuffer [ 256 ] = "" ; data = dataBuffer; char * data = * dataPtr1 ; size_t dataLen = strlen ( data ) ; FILE * pFile ; if ( 256 - dataLen > 1 )  pFile = fopen ( FILENAME , "r" ); if ( pFile != NULL )  fclose ( pFile ); 

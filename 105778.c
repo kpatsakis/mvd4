@@ -1,0 +1,1 @@
+ CVE_2014_1509_VULN__cairo_dwrite_load_truetype_table(void                 unsigned long         long                  unsigned char        unsigned long        *length) const void * data ; UINT32 size ; BOOL exists ; if ( ! exists )  if ( buffer )  memcpy ( buffer , data , size ); 

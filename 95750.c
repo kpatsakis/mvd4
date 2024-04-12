@@ -1,0 +1,1 @@
+static void goodG2B() double * data ; double * * dataPtr1 = & data ; data = NULL; double * data = * dataPtr1 ; data = ( double * ) malloc ( sizeof ( * data ) ); * data = 1.7E300; * dataPtr1 = data; printDoubleLine ( * data ); void printDoubleLine(double doubleNumber) printf ( "%g\n" , doubleNumber ); free ( data ); 

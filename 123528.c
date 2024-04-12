@@ -1,0 +1,1 @@
+static void goodG2B() int64_t * data ; data = NULL; data = ( int64_t * ) malloc ( sizeof ( * data ) ); myUnion . unionFirst = data; int64_t * data = myUnion . unionSecond ; printLongLongLine ( * data ); void printLongLongLine (int64_t longLongIntNumber) printf ( "%lld\n" , longLongIntNumber ); free ( data ); 

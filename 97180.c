@@ -1,0 +1,1 @@
+static void goodG2B() char * data ; char * dataArray [ 5 ] ; char * dataGoodBuffer = ( char * ) malloc ( sizeof ( TwoIntsClass ) ) ; data = dataGoodBuffer; dataArray [ 2 ] = data; goodG2BSink ( dataArray ); void goodG2BSink(char * dataArray[]) char * data = dataArray [ 2 ] ; free ( data ); 

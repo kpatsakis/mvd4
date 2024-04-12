@@ -1,0 +1,1 @@
+static void goodG2B() wchar_t * data ; wchar_t dataBuffer [ 100 ] = L "" data = dataBuffer; wcscpy ( data , GOOD_OS_COMMAND ); dataArray [ 2 ] = data; CWE426_Untrusted_Search_Path__wchar_t_system_66b_goodG2BSink ( dataArray ); void CWE426_Untrusted_Search_Path__wchar_t_system_66b_goodG2BSink(wchar_t * dataArray[]) wchar_t * data = dataArray [ 2 ] ; if ( SYSTEM ( data ) <= 0 )  

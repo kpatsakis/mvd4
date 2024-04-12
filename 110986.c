@@ -1,0 +1,1 @@
+static void goodG2B() wchar_t * data ; wchar_t dataBuffer [ 100 ] = L "" data = dataBuffer; wcscpy ( data , GOOD_OS_COMMAND ); myUnion . unionFirst = data; wchar_t * data = myUnion . unionSecond ; pipe = POPEN ( data , L "wb" ) if ( pipe != NULL )  PCLOSE ( pipe ); 

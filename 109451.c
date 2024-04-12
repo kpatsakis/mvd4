@@ -1,0 +1,1 @@
+static void goodG2B() long * dataBuffer = ( long * ) malloc ( 100 * sizeof ( long ) ) ; if ( dataBuffer == NULL )  dataBuffer [ i ] = 5L; data = dataBuffer; myUnion . unionFirst = data; long * data = myUnion . unionSecond ; printLongLine ( data [ 0 ] ); void printLongLine (long longNumber) printf ( "%ld\n" , longNumber ); free ( data ); 

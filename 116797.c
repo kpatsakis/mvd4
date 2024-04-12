@@ -1,0 +1,1 @@
+void CWE590_Free_Memory_Not_on_Heap__free_char_alloca_32_bad() char * data ; char * * dataPtr2 = & data ; data = NULL; char * dataBuffer = ( char * ) ALLOCA ( 100 * sizeof ( char ) ) ; memset ( dataBuffer , 'A' , 100 - 1 ); dataBuffer [ 100 - 1 ] = '\0'; data = dataBuffer; char * data = * dataPtr2 ; free ( data ); 

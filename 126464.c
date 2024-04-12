@@ -1,0 +1,1 @@
+void bad() int * data ; data = NULL; badSource ( data ); static void badSource(int * &data) data = ( int * ) malloc ( 100 * sizeof ( int ) ); size_t i ; for(i = 0; i < 100; i++) data [ i ] = 5; free ( data ); 

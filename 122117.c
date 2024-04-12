@@ -1,0 +1,1 @@
+void bad() long * data ; data = ( long * ) malloc ( 100 * sizeof ( long ) ); free ( data ); dataMap [ 0 ] = data; dataMap [ 1 ] = data; dataMap [ 2 ] = data; badSink ( dataMap ); void badSink(map<int, long *> dataMap) long * data = dataMap [ 2 ] ; free ( data ); 

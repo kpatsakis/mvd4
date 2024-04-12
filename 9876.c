@@ -1,0 +1,1 @@
+static void goodB2G() FILE * data ; data = fopen ( "BadSource_fopen.txt" , "w+" ); if ( data != NULL )  fclose ( data ); if ( data != NULL )  fclose ( data ); if ( data != NULL )  fclose ( data ); if ( data != NULL )  fclose ( data ); 

@@ -1,0 +1,1 @@
+void CWE416_Use_After_Free__malloc_free_wchar_t_08_bad() wchar_t * data ; data = NULL; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; data = ( wchar_t * ) malloc ( 100 * sizeof ( wchar_t ) ); wmemset ( data , L 'A' , 100 - 1 data [ 100 - 1 ] = L '\0' free ( data ); 

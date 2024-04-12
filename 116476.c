@@ -1,0 +1,1 @@
+static void good1() int k ; for(k = 0; k < 1; k++) int * * pointer = ( int * * ) malloc ( sizeof ( int * ) ) ; * pointer = data; int * data = * pointer ; printIntLine ( * data ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); free ( pointer ); 

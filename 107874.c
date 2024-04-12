@@ -1,0 +1,1 @@
+void CWE122_Heap_Based_Buffer_Overflow__sizeof_int64_t_12_bad() int64_t * data ; data = NULL; if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; data = ( int64_t * ) malloc ( sizeof ( data ) ); * data = 2147483643L L data = ( int64_t * ) malloc ( sizeof ( * data ) ); * data = 2147483643L L free ( data ); 

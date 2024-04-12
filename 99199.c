@@ -1,0 +1,1 @@
+static void goodB2G() char inputBuffer [ CHAR_ARRAY_SIZE ] = "" ; if ( fgets ( inputBuffer , CHAR_ARRAY_SIZE , stdin ) != NULL )  count = atoi ( inputBuffer ); countMap [ 0 ] = count; countMap [ 1 ] = count; countMap [ 2 ] = count; goodB2GSink ( countMap ); void goodB2GSink(map<int, int> countMap) int count = countMap [ 2 ] ; if ( count > 0 && count <= 2000 )  SLEEP ( count ); 

@@ -1,0 +1,1 @@
+void bad() double * data ; data = ( double * ) malloc ( sizeof ( data ) ); * data = 1.7E300; dataMap [ 0 ] = data; dataMap [ 1 ] = data; dataMap [ 2 ] = data; badSink ( dataMap ); void badSink(map<int, double *> dataMap) double * data = dataMap [ 2 ] ; printDoubleLine ( * data ); void printDoubleLine(double doubleNumber) printf ( "%g\n" , doubleNumber ); free ( data ); 

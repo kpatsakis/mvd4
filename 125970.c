@@ -1,0 +1,1 @@
+void CWE401_Memory_Leak__int_realloc_51_bad() int * data ; data = NULL; data = ( int * ) realloc ( data , 100 * sizeof ( int ) ); data [ 0 ] = 5; printIntLine ( data [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); CWE401_Memory_Leak__int_realloc_51b_badSink ( data ); void CWE401_Memory_Leak__int_realloc_51b_badSink(int * data) 

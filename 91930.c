@@ -1,0 +1,1 @@
+static void goodB2G() long * data ; data = ( long * ) calloc ( 1 , sizeof ( long ) ); myUnion . unionFirst = data; long * data = myUnion . unionSecond ; if ( data != NULL )  data [ 0 ] = 5L; printLongLine ( data [ 0 ] ); void printLongLine (long longNumber) printf ( "%ld\n" , longNumber ); free ( data ); 

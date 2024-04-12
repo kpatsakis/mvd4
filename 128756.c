@@ -1,0 +1,1 @@
+void bad() char * data ; structType myStruct ; char * dataBadBuffer = ( char * ) malloc ( sizeof ( OneIntClass ) ) ; data = dataBadBuffer; myStruct . structFirst = data; badSink ( myStruct ); void badSink(structType myStruct) char * data = myStruct . structFirst ; free ( data ); 

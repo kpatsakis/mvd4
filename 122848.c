@@ -1,0 +1,1 @@
+int main(int argc, char *argv[]) if ( argc > 1 )  cont container = . name = "" strncpy ( container . name , argv [ 1 ] , 255 ); container . name [ 255 ] = '\0'; printLine ( container . name ); void printLine(const char *fileName) FILE * fp ; if ( fp = fopen ( fileName , "r" ) )  char buff [ 512 ] ; if ( fgets ( buff , 512 , fp ) )  printf ( "%s\n" , buff ); 

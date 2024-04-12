@@ -1,0 +1,1 @@
+void bad() list < int * > dataList ; badSink ( dataList ); void badSink(list<int *> dataList) int * data = dataList . back ( ) ; int source [ 100 ] = { 0 } ; size_t i ; for (i = 0; i < 100; i++) data [ i ] = source [ i ]; free ( data ); 

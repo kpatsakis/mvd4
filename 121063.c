@@ -1,0 +1,1 @@
+GoodDerivedClass(const char * name) if ( name )  this -> name = new char [ strlen ( name ) + 1 ]; strcpy ( this -> name , name ); printLine ( this -> name ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); this -> name = new char [ 1 ]; * ( this -> name ) = '\0'; 

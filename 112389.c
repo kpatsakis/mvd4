@@ -1,0 +1,1 @@
+static void goodG2B() void * data ; data = NULL; while ( 1 )  data = ( void * ) CHAR_STRING; while ( 1 )  size_t dataLen = strlen ( ( char * ) data ) ; void * dest = ( void * ) calloc ( dataLen + 1 , 1 ) ; memcpy ( dest , data , ( dataLen + 1 ) ); free ( dest ); 

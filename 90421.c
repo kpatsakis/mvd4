@@ -1,0 +1,1 @@
+void bad() badStruct data ; linkedList head = { & head , & head } ; data . list . next = head . next; data . list . prev = head . prev; if ( fgets ( ( char * ) & data , sizeof ( data ) , stdin ) == NULL )  linkedListPrev = data . list . prev; linkedListNext = data . list . next; linkedListPrev -> next = linkedListNext; linkedListNext -> prev = linkedListPrev; 

@@ -1,0 +1,1 @@
+static void good1() if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; int64_t data ; int64_t * pointer = ( int64_t * ) malloc ( sizeof ( int64_t ) ) ; data = 5L L * pointer = data; int64_t data ; int64_t * pointer = ( int64_t * ) malloc ( sizeof ( int64_t ) ) ; data = 5L L * pointer = data; free ( pointer ); 

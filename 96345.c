@@ -1,0 +1,1 @@
+void CWE758_Undefined_Behavior__long_malloc_use_12_bad() if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; long * pointer = ( long * ) malloc ( sizeof ( long ) ) ; long data = * pointer ; free ( pointer ); printLongLine ( data ); void printLongLine (long longNumber) printf ( "%ld\n" , longNumber ); 

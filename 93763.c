@@ -1,0 +1,1 @@
+nsresult nsEncoderSupport::FlushBuffer(char ** aDest, const char * aDestEnd) int32_t bcr , bcw ; char * dest = * aDest ; if ( mBufferStart < mBufferEnd )  bcr = mBufferEnd - mBufferStart; bcw = aDestEnd - dest; if ( bcw < bcr )  bcr = bcw; memcpy ( dest , mBufferStart , bcr ); dest += bcr; * aDest = dest; 

@@ -1,0 +1,1 @@
+void CWE122_Heap_Based_Buffer_Overflow__sizeof_int64_t_08_bad() int64_t * data ; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; data = ( int64_t * ) malloc ( sizeof ( data ) ); printLongLongLine ( * data ); void printLongLongLine (int64_t longLongIntNumber) printf ( "%lld\n" , longLongIntNumber ); free ( data ); 

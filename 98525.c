@@ -1,0 +1,1 @@
+static void goodG2B() twoIntsStruct * data ; data = NULL; data = CWE122_Heap_Based_Buffer_Overflow__sizeof_struct_61b_goodG2BSource ( data ); twoIntsStruct * CWE122_Heap_Based_Buffer_Overflow__sizeof_struct_61b_goodG2BSource(twoIntsStruct * data) data = ( twoIntsStruct * ) malloc ( sizeof ( * data ) ); data -> intOne = 1; data -> intTwo = 2; return data ; free ( data ); 

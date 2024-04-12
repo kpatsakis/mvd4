@@ -1,0 +1,1 @@
+void bad() char * data ; data = NULL; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; data = new char [ 100 ]; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; free ( data ); 

@@ -1,0 +1,1 @@
+static void goodB2G() long * data ; data = NULL; data = NULL; data = ( long * ) realloc ( data , 100 * sizeof ( long ) ); goodB2GSink ( & data ); void goodB2GSink(void * dataVoidPtr) long * * dataPtr = ( long * * ) dataVoidPtr ; long * data = ( * dataPtr ) ; free ( data ); 

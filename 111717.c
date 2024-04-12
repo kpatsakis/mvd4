@@ -1,0 +1,1 @@
+void CWE401_Memory_Leak__int_malloc_12_bad() int * data ; if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; data = ( int * ) malloc ( 100 * sizeof ( int ) ); data = ( int * ) ALLOCA ( 100 * sizeof ( int ) ); data [ 0 ] = 5; if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; free ( data ); 

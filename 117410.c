@@ -1,0 +1,1 @@
+static void goodB2G2() long * data ; data = ( long * ) calloc ( 1 , sizeof ( long ) ); goodB2G2Sink ( data ); static void goodB2G2Sink(long * data) if ( data != NULL )  data [ 0 ] = 5L; printLongLine ( data [ 0 ] ); void printLongLine (long longNumber) printf ( "%ld\n" , longNumber ); free ( data ); 

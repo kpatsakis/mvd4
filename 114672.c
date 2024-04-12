@@ -1,0 +1,1 @@
+MDefinition* swizzleSimd(MDefinition* vector, int32_t X, int32_t Y, int32_t Z, int32_t MIRType type) if ( inDeadCode ( ) )  inline bool inDeadCode() const return curBlock_ == nullptr ; MSimdSwizzle * ins = MSimdSwizzle :: NewAsmJS ( alloc ( ) , vector , type , X , Y , Z , W ) ; return * alloc_ ; TempAllocator &     alloc() const curBlock_ -> add ( ins ); return ins ; 

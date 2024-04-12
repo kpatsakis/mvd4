@@ -1,0 +1,1 @@
+static void goodG2B() wchar_t * password ; password = L "" password = goodG2BSource ( password ); static wchar_t * goodG2BSource(wchar_t * password) password = ( wchar_t * ) malloc ( 100 * sizeof ( wchar_t ) ); if ( password == NULL )  if ( ! VirtualLock ( password , 100 * sizeof ( wchar_t ) ) )  wcscpy ( password , L "Password1234!" ) return password ; 

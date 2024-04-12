@@ -1,0 +1,1 @@
+void CWE758_Undefined_Behavior__int_pointer_malloc_use_12_bad() if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; int * data ; int * * pointer = ( int * * ) malloc ( sizeof ( int * ) ) ; data = ( int * ) malloc ( sizeof ( int ) ); * data = 5; * pointer = data; free ( pointer ); 

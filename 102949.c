@@ -1,0 +1,1 @@
+void badSink_b(wchar_t * data) badSink_c ( data ); void badSink_c(wchar_t * data) badSink_d ( data ); void badSink_d(wchar_t * data) badSink_e ( data ); void badSink_e(wchar_t * data) size_t i , dataLen ; dataLen = wcslen ( data ); for (i = 0; i < dataLen; i++) 

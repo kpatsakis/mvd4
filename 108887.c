@@ -1,0 +1,1 @@
+void bad() vector < int * > dataVector ; badSink ( dataVector ); void badSink(vector<int *> dataVector) int * data = dataVector [ 2 ] ; int source [ 10 ] = { 0 } ; size_t i ; for (i = 0; i < 10; i++) data [ i ] = source [ i ]; free ( data ); 

@@ -1,0 +1,1 @@
+ main(int argc, char **argv) char * userstr ; if ( argc > 1 )  userstr = argv [ 1 ]; test ( userstr );  test(char *str) char buf [ MAXSIZE ] ; snprintf ( buf , sizeof buf , "/usr/games/%s" , str ); buf [ MAXSIZE - 1 ] = 0; execl ( buf , str , 0 ); 

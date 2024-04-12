@@ -1,0 +1,1 @@
+void CWE690_NULL_Deref_From_Return__int_malloc_12_bad() int * data ; data = NULL; data = ( int * ) malloc ( 1 * sizeof ( int ) ); if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; data [ 0 ] = 5; if ( data != NULL )  data [ 0 ] = 5; free ( data ); 

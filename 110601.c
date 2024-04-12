@@ -1,0 +1,1 @@
+static void goodG2B() int * data ; data = NULL; data = goodG2BSource ( data ); static int * goodG2BSource(int * data) data = ( int * ) malloc ( 10 * sizeof ( int ) ); return data ; int source [ 10 ] = { 0 } ; size_t i ; for (i = 0; i < 10; i++) data [ i ] = source [ i ]; free ( data ); 

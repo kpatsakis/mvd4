@@ -1,0 +1,1 @@
+static void goodG2B() int * data ; data = ( int * ) malloc ( sizeof ( int ) ); * data = 5; CWE457_Use_of_Uninitialized_Variable__int_pointer_63b_goodG2BSink ( & data ); void CWE457_Use_of_Uninitialized_Variable__int_pointer_63b_goodG2BSink(int * * dataPtr) int * data = * dataPtr ; printIntLine ( * data ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); 

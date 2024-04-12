@@ -1,0 +1,1 @@
+void CWE690_NULL_Deref_From_Return__int_calloc_34_bad() int * data ; data = ( int * ) calloc ( 1 , sizeof ( int ) ); myUnion . unionFirst = data; int * data = myUnion . unionSecond ; data [ 0 ] = 5; printIntLine ( data [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); free ( data ); 

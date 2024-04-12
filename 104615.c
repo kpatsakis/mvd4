@@ -1,0 +1,1 @@
+void bad() FILE * data ; map < int , FILE * > dataMap ; data = NULL; data = _wfopen ( L "file.txt" , L "w+" ) dataMap [ 0 ] = data; dataMap [ 1 ] = data; dataMap [ 2 ] = data; badSink ( dataMap ); void badSink(map<int, FILE *> dataMap) FILE * data = dataMap [ 2 ] ; fclose ( data ); 
